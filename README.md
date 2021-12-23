@@ -34,7 +34,7 @@ server
         listen 443 ssl http2;
         server_name default;
         index index.php index.html index.htm default.php default.htm default.html;
-        root /www/wwwroot/www.dzyun.net;
+        root /www/wwwroot/domain;
         
         #SSL-START SSL相关配置，请勿删除或修改下一行带注释的404规则
         #error_page 404/404.html;
